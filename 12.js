@@ -31,7 +31,10 @@ function solution(x) {
   for (let num of x.toString()) {
     divide += +num;
   }
-
+  /*
+ * 다른 풀이
+ return !(x % [...x.toString()].reduce((acc, cur) => +acc + +cur,0));
+*/
   return (answer = (x / divide) % 1 === 0 ? true : false);
 }
 
