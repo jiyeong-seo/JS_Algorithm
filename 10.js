@@ -12,8 +12,8 @@ arr은 길이 1 이상인 배열입니다.
     [10]	   [-1]
  */
 function solution(arr) {
-  let filterdArr = arr.splice(arr.indexOf(Math.min(...arr)), 1);
-  var answer = arr.length ? arr : [-1];
+  arr.splice(arr.indexOf(Math.min(...arr)), 1);
+  var answer = arr.length <= 1 ? [-1] : arr;
   return answer;
 }
 
