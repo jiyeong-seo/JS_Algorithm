@@ -61,7 +61,7 @@ function solution(lottos, win_nums) {
 
   let min = 7 - correct >= 6 ? 6 : 7 - correct;
   let max = min - zero < 1 ? 1 : min - zero;
-  console.log(min);
+
   return (answer = [max, min]);
 }
 
