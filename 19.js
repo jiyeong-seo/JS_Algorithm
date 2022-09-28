@@ -23,7 +23,6 @@ strings	n	return
  */
 function solution(strings, n) {
   let answer;
-
   strings.sort();
 
   strings.sort((a, b) => {

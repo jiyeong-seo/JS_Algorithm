@@ -65,10 +65,10 @@ function solution(s) {
     "eight",
     "nine",
   ];
+
   for (let i = 0; i < words.length; i++) {
     answer = answer.split(words[i]).join(i);
   }
-
   return Number(answer);
 }
 
