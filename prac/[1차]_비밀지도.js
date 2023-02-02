@@ -29,4 +29,4 @@ function solution(n, arr1, arr2) {
   return answer;
 }
 
-solution(6, [46, 33, 33, 22, 31, 50], [27, 56, 19, 14, 14, 10]);
+console.log(solution(6, [46, 33, 33, 22, 31, 50], [27, 56, 19, 14, 14, 10]));
