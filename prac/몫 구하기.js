@@ -3,4 +3,4 @@ function solution(num1, num2) {
   return answer;
 }
 
-console.log(solution(10, 5));
+solution(10, 5);
